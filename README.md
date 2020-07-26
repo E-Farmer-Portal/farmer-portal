@@ -17,9 +17,9 @@ This is a small application of an E-Farmer Portal having the following features:
 
 ## Some features of the application:-
 
-Registration Page:
-<img src="images/Screenshot (218).png" height="300">
-Login Page:
+Registration Page:  
+<img src="images/Screenshot (218).png" height="300">  
+Login Page:  
 <img src="images/Screenshot (219).png" height="300">
 
 Store                   |                   Cart
