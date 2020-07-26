@@ -10,4 +10,27 @@ This is a small application of an E-Farmer Portal having the following features:
 * **Forget Password Functionality**
 * **Logout Page**
 
+## Some features of the application:-
 
+Registration Page:
+<img src="images/Screenshot (218).png" height="300">
+Login Page:
+<img src="images/Screenshot (219).png" height="300">
+
+Store                   |                   Cart
+:---------------------------------:        |      :------------------------------:
+<img src="images/Screenshot (212).png" height="300">     |<img src="images/Screenshot (213).png" height="300">
+
+Checkout                   |                   Payment
+:---------------------------------:        |      :------------------------------:
+<img src="images/Screenshot (214).png" height="300">     |<img src="images/Screenshot (215).png" height="300">
+
+Forum                   |                   Details
+:---------------------------------:        |      :------------------------------:
+<img src="images/Screenshot (216).png" height="300">     |<img src="images/Screenshot (217).png" height="300">
+
+Dashboard                 |                   Profile
+:---------------------------------:        |      :------------------------------:
+<img src="images/Screenshot (210).png" height="300">     |<img src="images/Screenshot (211).png" height="300">
+
+Pictures of Forget Password Process is given in images folder.
