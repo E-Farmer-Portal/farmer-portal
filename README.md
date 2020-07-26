@@ -10,6 +10,11 @@ This is a small application of an E-Farmer Portal having the following features:
 * **Forget Password Functionality**
 * **Logout Page**
 
+## Steps to run the application:
+1. Clone the github repository and cd to the folder 
+2. Run _pip install -r requirements.txt_
+3. Run _python manage.py runserever_
+
 ## Some features of the application:-
 
 Registration Page:
