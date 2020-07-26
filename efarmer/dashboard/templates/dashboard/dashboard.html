@@ -1,0 +1,12 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+
+{% block title %}Your Dashboard{% endblock %}
+{% load crispy_forms_tags %} 
+
+{% block content %}
+	<div class="content-section">
+        <h3>Welcome to Dashboard</h3>
+        <img src="{% static 'dashboard/kisan.jpg' %}">
+    </div>
+{% endblock %}

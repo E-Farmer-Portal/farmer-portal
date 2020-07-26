@@ -1,0 +1,83 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block content %}
+    <center><h1>7/12 Extract</h1></center>
+     <div class="row">
+
+			<div class="box-element" id="form-wrapper">
+				<form method="POST" class="form-group" action="/login/dashboard/">
+					{% csrf_token %}
+					<div id="farmer-details">
+                        <hr>
+						<p>Farmer Details:</p>
+						<hr>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="name" placeholder="Name..">
+						</div>
+						<div class="form-field">
+							<input required class="form-control" type="email" name="email" placeholder="Email..">
+						</div>
+					</div>
+                    <div id="crop-details">
+                        <hr>
+						<p>Crop Details:</p>
+						<hr>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="namecrop" placeholder="Name of the Crop..">
+						</div>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="crop_amount" placeholder="Quantity in Kg...">
+						</div>
+					</div>
+                    <div id="land-details">
+                        <hr>
+						<p>Land Details:</p>
+						<hr>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="area" placeholder="Area of Land in Acres..">
+						</div>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="place" placeholder="Place..">
+						</div>
+					</div>
+                    <div id="loan-details">
+                        <hr>
+						<p>Loan Details:</p>
+						<hr>
+                        <div class="form-field">
+							<input required class="form-control" type="text" name="bank" placeholder="Bank Name..">
+						</div>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="loan" placeholder="Type of Loan....Crop/Term">
+						</div>
+                        <div class="form-field">
+							<input required class="form-control" type="text" name="amount" placeholder="Amount Taken..">
+						</div>
+					</div>
+                    <div id="subsidy-details">
+                        <hr>
+						<p>Subsidy Details:</p>
+						<hr>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="purpose" placeholder="Purpose..">
+						</div>
+						<div class="form-field">
+							<input required class="form-control" type="text" name="amount" placeholder="Amount..">
+						</div>
+					</div>
+
+
+
+					<hr>
+					<input id="form-button" class="btn btn-success btn-block" type="submit" value="Continue">
+				</form>
+			</div>
+
+			<br>
+
+
+
+
+
+	</div>
+{% endblock content %}

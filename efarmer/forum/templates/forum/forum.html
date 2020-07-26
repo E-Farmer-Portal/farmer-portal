@@ -1,0 +1,27 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+
+{% block title %}Your Dashboard{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+	<div class="row">
+        {% for post in posts %}
+		<div class="col-lg-4">
+			<div class="box-element product">
+				<div class="card">
+					<div class="card-header">
+						{{post.title}}
+					</div>
+					<div class="card-body">
+						<p class="card-text">{{post.content}}</p>
+						<div style="flex:2"><p>{{post.date_posted}}</p></div>
+						<div style="flex:1"><p>By- {{post.author}}</p></div>
+					</div>
+				  </div>
+
+			</div>
+		</div>
+		{% endfor %}
+    </div>
+{% endblock %}

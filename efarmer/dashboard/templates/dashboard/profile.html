@@ -1,0 +1,16 @@
+{% extends 'dashboard/base.html' %}
+
+{% load static %}
+
+{% block content %}
+	<div class="content-section">
+        <center>
+        <h1> Welcome</h1>
+        <h3>Username : {{user.username}}</h3>
+        <h3>Email : {{user.email}}</h3>
+        </center>
+    </div>
+{% endblock %}
+
+
+
